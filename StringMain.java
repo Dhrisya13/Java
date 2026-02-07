@@ -11,6 +11,8 @@ public class StringMain {
      
      System.out.println("The length of the string is:"+s.length());
      
+    
+     
      System.out.println("Character EXtraction:" + s.charAt(3));
      
      System.out.print("Enter second String:");
@@ -19,6 +21,8 @@ public class StringMain {
      String c1 = new String(t);
      
      System.out.println("Check String Comparison:" +s.equals(t));
+     
+     System.out.println("String Concatination:"+ s+t);
      
      System.out.print("Enter third String:");
      String r = sc.nextLine();
